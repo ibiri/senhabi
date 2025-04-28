@@ -45,7 +45,7 @@ else:
     # Link do seu relatório Power BI (exemplo fictício - troque pelo seu)
     powerbi_link = "https://app.powerbi.com/view?r=eyJrIjoiZWI2ZTc1OWUtMmYyNC00NWI3LWJhMWItN2NhYzlkYjk4MTNlIiwidCI6ImNmOTlkZGRjLTViN2EtNDBjZi1iNTg3LTJkY2M3MDRlNTEwNCJ9"
 
-    components.iframe(src=powerbi_link, width=1100, height=700)
+    components.iframe(src=powerbi_link, width=1920, height=1080)
 
     if st.button("Sair"):
         st.session_state['autenticado'] = False
